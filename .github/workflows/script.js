@@ -1,5 +1,5 @@
 function estação() { 
-    let mês = prompt('Digite o mês em extenso (ex: Setembro)')
+    let mês = prompt('Digite o mês em extenso (ex: Outubro)')
     let saída = document.querySelector('section#saida')
     let estação
     switch (mês.toUpperCase()) { 
@@ -19,5 +19,5 @@ function estação() {
             estação = 'INDEFINIDA'
             break
     }
-    saída.innerHTML = `<p>No mês de <mark>${mês}</mark>, estamos na estação <mark><strong>${estação}</strong></mark>.</p>`
+    saída.innerHTML = `<p>No mês de <strong>${mês}</strong>, estamos na estação <strong>${estação}</strong>.</p>`
 }
