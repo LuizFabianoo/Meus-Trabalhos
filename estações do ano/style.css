@@ -1,0 +1,10 @@
+
+
+.container { 
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+body { font: 12pt Garamond; }
+h1, h2, h3 { font-family: 'Courier New', cursive; font-weight: normal;}
+button { font-size: 20pt; padding: 50px; }
